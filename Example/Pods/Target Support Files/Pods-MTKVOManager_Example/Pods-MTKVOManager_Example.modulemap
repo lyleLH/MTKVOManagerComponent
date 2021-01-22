@@ -1,0 +1,6 @@
+framework module Pods_MTKVOManager_Example {
+  umbrella header "Pods-MTKVOManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

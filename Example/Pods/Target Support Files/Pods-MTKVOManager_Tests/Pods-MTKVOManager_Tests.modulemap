@@ -1,0 +1,6 @@
+framework module Pods_MTKVOManager_Tests {
+  umbrella header "Pods-MTKVOManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
