@@ -8,7 +8,7 @@
 
 #import "MTViewController.h"
 #import "MTTestModel.h"
-#import <NSObject+MTKVOManager.h>
+#import <MTKVOManagerComponent/MTKVOManagerComponentHeader.h>
 @interface MTViewController ()
 
 @end

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/tom_liu/Documents/YeahKa/Tom/MTKVOManager/Example/MTKVOManagerComponent.xcodeproj">
+      location = "group:MTKVOManagerComponent.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

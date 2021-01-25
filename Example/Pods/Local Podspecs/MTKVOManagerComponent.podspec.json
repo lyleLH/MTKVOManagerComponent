@@ -1,0 +1,27 @@
+{
+  "name": "MTKVOManagerComponent",
+  "version": "1.0.0",
+  "summary": "NSObject的分类，更优雅的使用KVO，无需关注移除时机，监听后使用Block回调",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lyleLH/MTKVOManagerComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Major Tom": "v2top1lyle@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lyleLH/MTKVOManagerComponent.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MTKVOManagerComponent/Classes/**/*",
+  "dependencies": {
+    "KVOController": [
+
+    ]
+  }
+}

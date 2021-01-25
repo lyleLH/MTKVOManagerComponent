@@ -1,6 +1,0 @@
-framework module MTKVOManager {
-  umbrella header "MTKVOManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

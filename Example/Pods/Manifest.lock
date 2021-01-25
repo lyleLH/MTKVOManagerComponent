@@ -1,23 +1,23 @@
 PODS:
   - KVOController (1.2.0)
-  - MTKVOManager (1.0.0):
+  - MTKVOManagerComponent (1.0.0):
     - KVOController
 
 DEPENDENCIES:
-  - MTKVOManager (from `../`)
+  - MTKVOManagerComponent (from `../`)
 
 SPEC REPOS:
   trunk:
     - KVOController
 
 EXTERNAL SOURCES:
-  MTKVOManager:
+  MTKVOManagerComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
-  MTKVOManager: fe22876e95e995f6c48de28a9c7d4b616e921fb1
+  MTKVOManagerComponent: e0a8e3533a0fd96a0c61f5a17edcbb55194ea4ea
 
-PODFILE CHECKSUM: 31c31ffa20fd16d37c5b021b573c3ef994705ec9
+PODFILE CHECKSUM: 55867f09d6a635f2bc8992c769d7f3a5772fa8e1
 
 COCOAPODS: 1.10.0

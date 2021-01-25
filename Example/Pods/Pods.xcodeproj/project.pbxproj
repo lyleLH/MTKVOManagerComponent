@@ -7,115 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0070F7ED0879A34E60310FC59E2E8A4F /* Pods-MTKVOManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECFC0E3838088664872065816CB256F /* Pods-MTKVOManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08492706BAE79C606C9AE4C971B0C1C4 /* NSObject+MTKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E92D5B58454E6FB2C0CE15D0FB91C /* NSObject+MTKVOManager.m */; };
 		19D62B5850DBBC1868A55E502FE22589 /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F05CDBF9737F6A5325E0949C559D96E7 /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A09A36C7ED2126FE226AB9D55D2EEE6 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = B12BD1702408F78DB227BF98AC60DB77 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25A3935BB6389141167BD591BC6095D1 /* MTKVOManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FF124B537B872E71AABFB653B48E3 /* MTKVOManager-dummy.m */; };
-		288A4B8AEFB3BECB5EFF8DEB5BBB809A /* Pods-MTKVOManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32BEE706BC562C3D89300F052A59BE6 /* Pods-MTKVOManager_Tests-dummy.m */; };
-		43D6E990EF1F50D5C6CEFC3E1E7C8393 /* NSObject+MTKVOManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A71B30D2A72ECA8C47BC6564EBEB6453 /* NSObject+MTKVOManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		443E7953A0B4CBE34A87A07B2B876F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
-		47174E2695E890213CBEFD14598A281E /* NSObject+MTKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC32A6F6909FB51F5EF3B442F5626C2 /* NSObject+MTKVOManager.m */; };
-		552E3BE460F7B883EB76FC848EF5CA85 /* Pods-MTKVOManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 516F156EE559DBC83275A84D4A5BF7C1 /* Pods-MTKVOManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69653C7E5BED14BE0B59A3D56740D6F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
+		1EE7F2C61C32321C8AF32A046B67EF27 /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6277F2A5545DB72DDE87391D5F8B3687 /* KVOController.framework */; };
+		23AF6774F43DB001A151E8FE7299D45D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
+		2B98B0CD2799E7904BCA431E4BD6337B /* Pods-MTKVOManagerComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB7EC66E2222723A568E9FB86A9B411 /* Pods-MTKVOManagerComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423F6550BE0D172A2E9A20C5C6D40695 /* MTKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B01C41355297278CE297DC01E48314 /* MTKVOManager.m */; };
+		4B46C1404CA07244F5C49B06174460BB /* MTKVOManagerComponentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 262004D06759DD2CCD080549EEE070CB /* MTKVOManagerComponentHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2B1DC44051BDD29BC258C5FC38AACE /* NSObject+MTKVOManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C97724E3FAE2FAA30B1E8CD093013C /* NSObject+MTKVOManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5B09BCE8B449D81F756FBB77F9E8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
+		73188B20BB0D0959DC049CBCB8FE36A6 /* Pods-MTKVOManagerComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D88766932AE22A64F2776D73AD150D /* Pods-MTKVOManagerComponent_Example-dummy.m */; };
 		75A2B460366AE806A610C9B90C64B797 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C3212C0404C1E75A9A108D08BC6B09 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CBE8E58838EF8CFBC7F1F43C5D7CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
 		889E2157616BF0844E55BCDC2C30A278 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2DDCD06FE07830A05F6215378AD489 /* NSObject+FBKVOController.m */; };
+		8B430C9095F9DDB229AECF516913F04A /* Pods-MTKVOManagerComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBED9F05554A1F652FD14AF48AB69A8 /* Pods-MTKVOManagerComponent_Tests-dummy.m */; };
+		8E903925EC9090F00D261677C4ECB80A /* MTKVOManagerComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D84DD4B523606BEDBF2FA0F14ACF2FC5 /* MTKVOManagerComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EE50CA49BDB3CC47A65D143D798AA72 /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 590565EFA674898392EFD7E5E68DD13D /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9670C11FE884391249C5154C3E319CDF /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E1A3A5A6D67E7B1670D61DC2B03852 /* FBKVOController.m */; };
-		991A4071ED223711849A3D82A610C4CA /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6277F2A5545DB72DDE87391D5F8B3687 /* KVOController.framework */; };
-		A8553439B56324FC45E74C21F2507427 /* MTKVOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D13A2C51D9607EC88336180A96172 /* MTKVOManager.m */; };
 		AB8C349C46978DF528A142C1C0959039 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9F948D71767372BB492EA41C972847 /* KVOController-dummy.m */; };
 		AF173C0A44C9064939379EB16CBC65D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
-		B2803E5D8AC9DB82485E7EE6AA347172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */; };
-		DF886D35F60C2C7A2D71710FA5D3EA73 /* MTKVOManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 107AF3BFDB12CC7E1B95A362A1F5FBFF /* MTKVOManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8E2B50071527222AB452443EF45C715 /* MTKVOManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A82490BD8BB677A392B4AD84A8F4EE5 /* MTKVOManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEC95AB0813DE6FF4053B42B5BF8F4DA /* Pods-MTKVOManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AE40399DFB9A0E23DA96C740FB58 /* Pods-MTKVOManager_Example-dummy.m */; };
+		BD7C41883A9B89F6C0556A30E45E5090 /* Pods-MTKVOManagerComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A687C6BBB986B249F9C1AB24C2C3A95 /* Pods-MTKVOManagerComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDEEE295C640052D63CBDC9D9AC0B2C9 /* MTKVOManagerComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B05C3D92E59BDEF5CBE0F50D36FA14EF /* MTKVOManagerComponent-dummy.m */; };
+		E267C7EE5E8579DA2DE667A301F48C7F /* MTKVOManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F7016BF8937CCCE216AE5D84D8B63 /* MTKVOManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14C0E4B2ED8A5BA818910C333AB24BD1 /* PBXContainerItemProxy */ = {
+		058854B6A7E3A2FDDFB863EE9EC4B70F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
 			remoteInfo = KVOController;
 		};
-		6598A97C75A2A50FAC5BB581C44F9532 /* PBXContainerItemProxy */ = {
+		41C2C357F450AA14FE4AE373E5489396 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2568F753F09C4DFFD8770DCC78EDAEAE;
 			remoteInfo = KVOController;
 		};
-		7358CD57113C183D0CD319698B9FC58C /* PBXContainerItemProxy */ = {
+		A65D6CD8B3428893A3214A5ADE435B9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9F0A421E6CCDEAB300DA8E7DF3E92FF;
-			remoteInfo = "Pods-MTKVOManager_Example";
+			remoteGlobalIDString = D031FCCBC5C272C1C96EDCD95375B94B;
+			remoteInfo = "Pods-MTKVOManagerComponent_Example";
 		};
-		780603683C8CE647F71977171B1F074A /* PBXContainerItemProxy */ = {
+		EBB4174159C9BD89817CDB1609885E2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B7706343B82827C90EF8658D69730995;
-			remoteInfo = MTKVOManager;
+			remoteGlobalIDString = EE7375A2B6673648A3E4AE55FBAE86F4;
+			remoteInfo = MTKVOManagerComponent;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A591A37A53E4C20F57A72E793DBD68D /* MTKVOManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTKVOManager-prefix.pch"; sourceTree = "<group>"; };
-		0C18AE40399DFB9A0E23DA96C740FB58 /* Pods-MTKVOManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTKVOManager_Example-dummy.m"; sourceTree = "<group>"; };
-		107AF3BFDB12CC7E1B95A362A1F5FBFF /* MTKVOManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTKVOManager-umbrella.h"; sourceTree = "<group>"; };
-		12009708FBC2F54474A116812509F10C /* Pods-MTKVOManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1437B6204D35C03C55DC455CF7D658C6 /* Pods-MTKVOManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		012BBC9EE2B991A47CAC86F5B94BA8B2 /* Pods-MTKVOManagerComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManagerComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		014C3990CF89B1E40EBEE19FD1A71AFA /* Pods-MTKVOManagerComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTKVOManagerComponent_Tests.modulemap"; sourceTree = "<group>"; };
+		03B5BA5F984B3BDD3BD5DC8443F3D2C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		03BD48BA1227506E10611AE21F0F436C /* Pods-MTKVOManagerComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManagerComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0C46AFBDF6FD7BF25F7D1922AE5A463F /* Pods-MTKVOManagerComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManagerComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E9BED0B9E03F8ED848D5DC6F1238BB3 /* Pods-MTKVOManagerComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTKVOManagerComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		18C3212C0404C1E75A9A108D08BC6B09 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
-		1A383CF4713BFB8FF742A659043D8FBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1AC32A6F6909FB51F5EF3B442F5626C2 /* NSObject+MTKVOManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTKVOManager.m"; path = "MTKVOManager/Classes/NSObject+MTKVOManager.m"; sourceTree = "<group>"; };
 		1D9F948D71767372BB492EA41C972847 /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
 		1F048B46EE717344AEC2A74F49762B61 /* KVOController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.release.xcconfig; sourceTree = "<group>"; };
-		265FF124B537B872E71AABFB653B48E3 /* MTKVOManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTKVOManager-dummy.m"; sourceTree = "<group>"; };
-		399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		482D45C28E4B04BD67BBB449A03D6143 /* MTKVOManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTKVOManager-Info.plist"; sourceTree = "<group>"; };
-		485C6F7331802A5AC9B24B17026C31A5 /* Pods-MTKVOManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTKVOManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4A82490BD8BB677A392B4AD84A8F4EE5 /* MTKVOManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTKVOManager.h; path = MTKVOManager/Classes/MTKVOManager.h; sourceTree = "<group>"; };
-		516F156EE559DBC83275A84D4A5BF7C1 /* Pods-MTKVOManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTKVOManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		55DA5C47DF786CF44E3F88B45DE2BA7B /* Pods-MTKVOManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTKVOManager_Tests.modulemap"; sourceTree = "<group>"; };
+		23D88766932AE22A64F2776D73AD150D /* Pods-MTKVOManagerComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTKVOManagerComponent_Example-dummy.m"; sourceTree = "<group>"; };
+		262004D06759DD2CCD080549EEE070CB /* MTKVOManagerComponentHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTKVOManagerComponentHeader.h; path = MTKVOManagerComponent/Classes/MTKVOManagerComponentHeader.h; sourceTree = "<group>"; };
+		399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FCC91E6FB628DBD905FC393CBA689C /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
 		590565EFA674898392EFD7E5E68DD13D /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
 		5D3B744CA423DDB35AA732FB8924B54E /* KVOController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.debug.xcconfig; sourceTree = "<group>"; };
-		5ECFC0E3838088664872065816CB256F /* Pods-MTKVOManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTKVOManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		6277F2A5545DB72DDE87391D5F8B3687 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B288D546BC98D4F604DB488C6DD068 /* Pods-MTKVOManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		65225954754213EA05505A6543F621A5 /* Pods-MTKVOManagerComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManagerComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6920BE2605C575B2386E1920DD18698D /* MTKVOManagerComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTKVOManagerComponent-Info.plist"; sourceTree = "<group>"; };
 		69A4CB314A2B2B7E5DC5D13B8A8DC017 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVOController.modulemap; sourceTree = "<group>"; };
-		6BEC740C977682C6C00C25DC3E9D32C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7181E930F405C51D5FC039ABAF4D4F5B /* MTKVOManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTKVOManager.framework; path = MTKVOManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D5C64A36C5330DD163A0C641F2459AE /* Pods-MTKVOManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTKVOManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		700F7016BF8937CCCE216AE5D84D8B63 /* MTKVOManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTKVOManager.h; path = MTKVOManagerComponent/Classes/MTKVOManager.h; sourceTree = "<group>"; };
+		71B01C41355297278CE297DC01E48314 /* MTKVOManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTKVOManager.m; path = MTKVOManagerComponent/Classes/MTKVOManager.m; sourceTree = "<group>"; };
+		7476BB7EC534A4A4970F4F891C9D4C84 /* Pods-MTKVOManagerComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTKVOManagerComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84975D48DADFD76AB31DF056209625F0 /* Pods-MTKVOManagerComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManagerComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A687C6BBB986B249F9C1AB24C2C3A95 /* Pods-MTKVOManagerComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTKVOManagerComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A273DAB70F518778B64A6B25E5E7BE /* KVOController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVOController-Info.plist"; sourceTree = "<group>"; };
-		9483B27BF5BC874D52BA995F9C997762 /* MTKVOManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTKVOManager.release.xcconfig; sourceTree = "<group>"; };
-		9B2D13A2C51D9607EC88336180A96172 /* MTKVOManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTKVOManager.m; path = MTKVOManager/Classes/MTKVOManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A239A0CCE15513D48A55FF10752BEA02 /* MTKVOManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTKVOManager.debug.xcconfig; sourceTree = "<group>"; };
-		A71B30D2A72ECA8C47BC6564EBEB6453 /* NSObject+MTKVOManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTKVOManager.h"; path = "MTKVOManager/Classes/NSObject+MTKVOManager.h"; sourceTree = "<group>"; };
-		AAB90B604C793EA1996B9B87C3617E1C /* MTKVOManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTKVOManager.modulemap; sourceTree = "<group>"; };
+		953C1A83B8FE962616EC08E87BB177B6 /* Pods-MTKVOManagerComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManagerComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		984E92D5B58454E6FB2C0CE15D0FB91C /* NSObject+MTKVOManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTKVOManager.m"; path = "MTKVOManagerComponent/Classes/NSObject+MTKVOManager.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB7EC66E2222723A568E9FB86A9B411 /* Pods-MTKVOManagerComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTKVOManagerComponent_Example-umbrella.h"; sourceTree = "<group>"; };
+		A54C7522D28A841946128DCC5D14C2EA /* MTKVOManagerComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTKVOManagerComponent.release.xcconfig; sourceTree = "<group>"; };
+		B0408815F4D3F51CCABBDFEA45BF8DC4 /* Pods-MTKVOManagerComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManagerComponent_Example-Info.plist"; sourceTree = "<group>"; };
+		B05C3D92E59BDEF5CBE0F50D36FA14EF /* MTKVOManagerComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTKVOManagerComponent-dummy.m"; sourceTree = "<group>"; };
+		B0F734CCA06FC3687471412F7D17FDF9 /* Pods_MTKVOManagerComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTKVOManagerComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12BD1702408F78DB227BF98AC60DB77 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
-		B8E280A8EE7DEAAD854BEFF44A725EDF /* Pods-MTKVOManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTKVOManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA20AE18EE86EB0CE071528CEDE27B1D /* Pods-MTKVOManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManager_Example-Info.plist"; sourceTree = "<group>"; };
-		C02A7ADFC9C2D80CFF8E2D7A1E93D043 /* Pods-MTKVOManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTKVOManager_Example.modulemap"; sourceTree = "<group>"; };
-		C2FFCF80E71D2B52656726D32198C8E4 /* Pods_MTKVOManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTKVOManager_Tests.framework; path = "Pods-MTKVOManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C79C29AFF8E91C4A2DE8825A7619ABDA /* Pods_MTKVOManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTKVOManager_Example.framework; path = "Pods-MTKVOManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13EED2B6B496480C5F98AE6A0DE8A57 /* MTKVOManagerComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTKVOManagerComponent.modulemap; sourceTree = "<group>"; };
+		BE6474CE0154184E97D57FF091E760DC /* MTKVOManagerComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTKVOManagerComponent.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		BE754C172E53C0415D9063BE20DC188A /* MTKVOManagerComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTKVOManagerComponent.debug.xcconfig; sourceTree = "<group>"; };
+		C5425D68743DD6A6BEB906F32AE637D5 /* Pods_MTKVOManagerComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTKVOManagerComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DAF5B96BEA0662127360C757216151 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C8E1A3A5A6D67E7B1670D61DC2B03852 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
-		D593704915380FFFC669D0F354F64DF5 /* Pods-MTKVOManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D77369C0E1413CF57130DBD3571D7670 /* Pods-MTKVOManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC866A9A86044774FDF4AE69F11A8747 /* Pods-MTKVOManagerComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTKVOManagerComponent_Tests-Info.plist"; sourceTree = "<group>"; };
+		D3F778BC095B3DB82A61F5C229A11E14 /* MTKVOManagerComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTKVOManagerComponent-prefix.pch"; sourceTree = "<group>"; };
+		D5C97724E3FAE2FAA30B1E8CD093013C /* NSObject+MTKVOManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTKVOManager.h"; path = "MTKVOManagerComponent/Classes/NSObject+MTKVOManager.h"; sourceTree = "<group>"; };
+		D84DD4B523606BEDBF2FA0F14ACF2FC5 /* MTKVOManagerComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTKVOManagerComponent-umbrella.h"; sourceTree = "<group>"; };
 		DA2DDCD06FE07830A05F6215378AD489 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
-		DC93B23BBCF3B2C449484D6FAC063170 /* Pods-MTKVOManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E32BEE706BC562C3D89300F052A59BE6 /* Pods-MTKVOManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTKVOManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		DCBED9F05554A1F652FD14AF48AB69A8 /* Pods-MTKVOManagerComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTKVOManagerComponent_Tests-dummy.m"; sourceTree = "<group>"; };
+		DF9A485E2629BE1FB02269DF4C6D6629 /* Pods-MTKVOManagerComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTKVOManagerComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFCECFDAFE8B932A6CDAB47F61C68B90 /* MTKVOManagerComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTKVOManagerComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BAAECBA6BCD7CC5AFF54F6CF49B1AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F048A6CE1059E57F0EE2E1C65B544E31 /* Pods-MTKVOManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTKVOManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F05CDBF9737F6A5325E0949C559D96E7 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
-		FB43B45B59D416711EFC2D48E25A4A8A /* MTKVOManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTKVOManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5D76F0E56C7C1509DDE0717B7F287D6 /* Pods-MTKVOManagerComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTKVOManagerComponent_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		30E6E5646C58411C6AED5DE35522543E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AF6774F43DB001A151E8FE7299D45D /* Foundation.framework in Frameworks */,
+				1EE7F2C61C32321C8AF32A046B67EF27 /* KVOController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A1EEB01CFAF9489026A3D0E5953AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5B09BCE8B449D81F756FBB77F9E8A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA749837471EE842F4B01CE102FA2469 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,28 +143,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B16249CA6934178FA2F9514721D61171 /* Frameworks */ = {
+		B78F5F5FE09ABA2C6A8541DCACA1AB56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69653C7E5BED14BE0B59A3D56740D6F7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7994299E78DCF38605912A0328BBAAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2803E5D8AC9DB82485E7EE6AA347172 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5FF754491230BC8E8450C49292CFA9F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				443E7953A0B4CBE34A87A07B2B876F19 /* Foundation.framework in Frameworks */,
-				991A4071ED223711849A3D82A610C4CA /* KVOController.framework in Frameworks */,
+				80CBE8E58838EF8CFBC7F1F43C5D7CB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,20 +162,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0AD4943AD61E83F7D4CC678B7826BB54 /* Pods-MTKVOManager_Tests */ = {
+		08AFE14DBA391059A34201BC6D1DAA99 /* Pods-MTKVOManagerComponent_Example */ = {
 			isa = PBXGroup;
 			children = (
-				55DA5C47DF786CF44E3F88B45DE2BA7B /* Pods-MTKVOManager_Tests.modulemap */,
-				B8E280A8EE7DEAAD854BEFF44A725EDF /* Pods-MTKVOManager_Tests-acknowledgements.markdown */,
-				D77369C0E1413CF57130DBD3571D7670 /* Pods-MTKVOManager_Tests-acknowledgements.plist */,
-				E32BEE706BC562C3D89300F052A59BE6 /* Pods-MTKVOManager_Tests-dummy.m */,
-				65B288D546BC98D4F604DB488C6DD068 /* Pods-MTKVOManager_Tests-Info.plist */,
-				516F156EE559DBC83275A84D4A5BF7C1 /* Pods-MTKVOManager_Tests-umbrella.h */,
-				F048A6CE1059E57F0EE2E1C65B544E31 /* Pods-MTKVOManager_Tests.debug.xcconfig */,
-				DC93B23BBCF3B2C449484D6FAC063170 /* Pods-MTKVOManager_Tests.release.xcconfig */,
+				F5D76F0E56C7C1509DDE0717B7F287D6 /* Pods-MTKVOManagerComponent_Example.modulemap */,
+				DF9A485E2629BE1FB02269DF4C6D6629 /* Pods-MTKVOManagerComponent_Example-acknowledgements.markdown */,
+				84975D48DADFD76AB31DF056209625F0 /* Pods-MTKVOManagerComponent_Example-acknowledgements.plist */,
+				23D88766932AE22A64F2776D73AD150D /* Pods-MTKVOManagerComponent_Example-dummy.m */,
+				7476BB7EC534A4A4970F4F891C9D4C84 /* Pods-MTKVOManagerComponent_Example-frameworks.sh */,
+				B0408815F4D3F51CCABBDFEA45BF8DC4 /* Pods-MTKVOManagerComponent_Example-Info.plist */,
+				9FB7EC66E2222723A568E9FB86A9B411 /* Pods-MTKVOManagerComponent_Example-umbrella.h */,
+				012BBC9EE2B991A47CAC86F5B94BA8B2 /* Pods-MTKVOManagerComponent_Example.debug.xcconfig */,
+				03BD48BA1227506E10611AE21F0F436C /* Pods-MTKVOManagerComponent_Example.release.xcconfig */,
 			);
-			name = "Pods-MTKVOManager_Tests";
-			path = "Target Support Files/Pods-MTKVOManager_Tests";
+			name = "Pods-MTKVOManagerComponent_Example";
+			path = "Target Support Files/Pods-MTKVOManagerComponent_Example";
 			sourceTree = "<group>";
 		};
 		0C8EC282E109AE44014D5A1732D1F4D4 /* Frameworks */ = {
@@ -185,39 +188,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1AF0009AD241E6868B4065FFD78C7863 /* Products */ = {
+		5DE871B0CFC24F21FD0C0EC78828EA6C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */,
-				7181E930F405C51D5FC039ABAF4D4F5B /* MTKVOManager.framework */,
-				C79C29AFF8E91C4A2DE8825A7619ABDA /* Pods_MTKVOManager_Example.framework */,
-				C2FFCF80E71D2B52656726D32198C8E4 /* Pods_MTKVOManager_Tests.framework */,
+				C9AFBCF811A11E6C356D46D375A78B5A /* MTKVOManagerComponent */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		33E419AAE975F1A5F2F58364FAD33FB2 /* MTKVOManager */ = {
-			isa = PBXGroup;
-			children = (
-				4A82490BD8BB677A392B4AD84A8F4EE5 /* MTKVOManager.h */,
-				9B2D13A2C51D9607EC88336180A96172 /* MTKVOManager.m */,
-				A71B30D2A72ECA8C47BC6564EBEB6453 /* NSObject+MTKVOManager.h */,
-				1AC32A6F6909FB51F5EF3B442F5626C2 /* NSObject+MTKVOManager.m */,
-				40B4E205DCCD86F54D97541714F39177 /* Pod */,
-				B66685F7686F22C3C95FF706E44F03AE /* Support Files */,
-			);
-			name = MTKVOManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		40B4E205DCCD86F54D97541714F39177 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6BEC740C977682C6C00C25DC3E9D32C0 /* LICENSE */,
-				FB43B45B59D416711EFC2D48E25A4A8A /* MTKVOManager.podspec */,
-				1A383CF4713BFB8FF742A659043D8FBA /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		79986FA53DC93DF123948945A0D57351 /* KVOController */ = {
@@ -230,40 +206,59 @@
 				DA2DDCD06FE07830A05F6215378AD489 /* NSObject+FBKVOController.m */,
 				C8B2A2E6FE36ECBBB1A9D24DEC579F15 /* Support Files */,
 			);
-			name = KVOController;
 			path = KVOController;
 			sourceTree = "<group>";
 		};
-		A179BA01D613F7E921C5B797FE98EEDE /* Targets Support Files */ = {
+		88419411B48E9E0A60162B4F7F98F141 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE980742E9A915990FC057C7F1BEED21 /* Pods-MTKVOManager_Example */,
-				0AD4943AD61E83F7D4CC678B7826BB54 /* Pods-MTKVOManager_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF549958E7D9DD6BB4B36B615D032B6E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				33E419AAE975F1A5F2F58364FAD33FB2 /* MTKVOManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B66685F7686F22C3C95FF706E44F03AE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAB90B604C793EA1996B9B87C3617E1C /* MTKVOManager.modulemap */,
-				265FF124B537B872E71AABFB653B48E3 /* MTKVOManager-dummy.m */,
-				482D45C28E4B04BD67BBB449A03D6143 /* MTKVOManager-Info.plist */,
-				0A591A37A53E4C20F57A72E793DBD68D /* MTKVOManager-prefix.pch */,
-				107AF3BFDB12CC7E1B95A362A1F5FBFF /* MTKVOManager-umbrella.h */,
-				A239A0CCE15513D48A55FF10752BEA02 /* MTKVOManager.debug.xcconfig */,
-				9483B27BF5BC874D52BA995F9C997762 /* MTKVOManager.release.xcconfig */,
+				B13EED2B6B496480C5F98AE6A0DE8A57 /* MTKVOManagerComponent.modulemap */,
+				B05C3D92E59BDEF5CBE0F50D36FA14EF /* MTKVOManagerComponent-dummy.m */,
+				6920BE2605C575B2386E1920DD18698D /* MTKVOManagerComponent-Info.plist */,
+				D3F778BC095B3DB82A61F5C229A11E14 /* MTKVOManagerComponent-prefix.pch */,
+				D84DD4B523606BEDBF2FA0F14ACF2FC5 /* MTKVOManagerComponent-umbrella.h */,
+				BE754C172E53C0415D9063BE20DC188A /* MTKVOManagerComponent.debug.xcconfig */,
+				A54C7522D28A841946128DCC5D14C2EA /* MTKVOManagerComponent.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MTKVOManager";
+			path = "Example/Pods/Target Support Files/MTKVOManagerComponent";
+			sourceTree = "<group>";
+		};
+		A709740252426B02A4DC14D779D8281B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7DAF5B96BEA0662127360C757216151 /* LICENSE */,
+				BE6474CE0154184E97D57FF091E760DC /* MTKVOManagerComponent.podspec */,
+				03B5BA5F984B3BDD3BD5DC8443F3D2C3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ABEC66E0726E727A264EA4E28044F250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */,
+				DFCECFDAFE8B932A6CDAB47F61C68B90 /* MTKVOManagerComponent.framework */,
+				B0F734CCA06FC3687471412F7D17FDF9 /* Pods_MTKVOManagerComponent_Example.framework */,
+				C5425D68743DD6A6BEB906F32AE637D5 /* Pods_MTKVOManagerComponent_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8F957B70D5A0CFF6711F9C563970B0E /* Pods-MTKVOManagerComponent_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				014C3990CF89B1E40EBEE19FD1A71AFA /* Pods-MTKVOManagerComponent_Tests.modulemap */,
+				0E9BED0B9E03F8ED848D5DC6F1238BB3 /* Pods-MTKVOManagerComponent_Tests-acknowledgements.markdown */,
+				953C1A83B8FE962616EC08E87BB177B6 /* Pods-MTKVOManagerComponent_Tests-acknowledgements.plist */,
+				DCBED9F05554A1F652FD14AF48AB69A8 /* Pods-MTKVOManagerComponent_Tests-dummy.m */,
+				CC866A9A86044774FDF4AE69F11A8747 /* Pods-MTKVOManagerComponent_Tests-Info.plist */,
+				8A687C6BBB986B249F9C1AB24C2C3A95 /* Pods-MTKVOManagerComponent_Tests-umbrella.h */,
+				0C46AFBDF6FD7BF25F7D1922AE5A463F /* Pods-MTKVOManagerComponent_Tests.debug.xcconfig */,
+				65225954754213EA05505A6543F621A5 /* Pods-MTKVOManagerComponent_Tests.release.xcconfig */,
+			);
+			name = "Pods-MTKVOManagerComponent_Tests";
+			path = "Target Support Files/Pods-MTKVOManagerComponent_Tests";
 			sourceTree = "<group>";
 		};
 		C8B2A2E6FE36ECBBB1A9D24DEC579F15 /* Support Files */ = {
@@ -281,33 +276,40 @@
 			path = "../Target Support Files/KVOController";
 			sourceTree = "<group>";
 		};
-		CE980742E9A915990FC057C7F1BEED21 /* Pods-MTKVOManager_Example */ = {
+		C9AFBCF811A11E6C356D46D375A78B5A /* MTKVOManagerComponent */ = {
 			isa = PBXGroup;
 			children = (
-				C02A7ADFC9C2D80CFF8E2D7A1E93D043 /* Pods-MTKVOManager_Example.modulemap */,
-				7D5C64A36C5330DD163A0C641F2459AE /* Pods-MTKVOManager_Example-acknowledgements.markdown */,
-				D593704915380FFFC669D0F354F64DF5 /* Pods-MTKVOManager_Example-acknowledgements.plist */,
-				0C18AE40399DFB9A0E23DA96C740FB58 /* Pods-MTKVOManager_Example-dummy.m */,
-				485C6F7331802A5AC9B24B17026C31A5 /* Pods-MTKVOManager_Example-frameworks.sh */,
-				BA20AE18EE86EB0CE071528CEDE27B1D /* Pods-MTKVOManager_Example-Info.plist */,
-				5ECFC0E3838088664872065816CB256F /* Pods-MTKVOManager_Example-umbrella.h */,
-				12009708FBC2F54474A116812509F10C /* Pods-MTKVOManager_Example.debug.xcconfig */,
-				1437B6204D35C03C55DC455CF7D658C6 /* Pods-MTKVOManager_Example.release.xcconfig */,
+				700F7016BF8937CCCE216AE5D84D8B63 /* MTKVOManager.h */,
+				71B01C41355297278CE297DC01E48314 /* MTKVOManager.m */,
+				262004D06759DD2CCD080549EEE070CB /* MTKVOManagerComponentHeader.h */,
+				D5C97724E3FAE2FAA30B1E8CD093013C /* NSObject+MTKVOManager.h */,
+				984E92D5B58454E6FB2C0CE15D0FB91C /* NSObject+MTKVOManager.m */,
+				A709740252426B02A4DC14D779D8281B /* Pod */,
+				88419411B48E9E0A60162B4F7F98F141 /* Support Files */,
 			);
-			name = "Pods-MTKVOManager_Example";
-			path = "Target Support Files/Pods-MTKVOManager_Example";
+			name = MTKVOManagerComponent;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AF549958E7D9DD6BB4B36B615D032B6E /* Development Pods */,
+				5DE871B0CFC24F21FD0C0EC78828EA6C /* Development Pods */,
 				0C8EC282E109AE44014D5A1732D1F4D4 /* Frameworks */,
 				F37D9E3DF4B7B276818A1977FF720682 /* Pods */,
-				1AF0009AD241E6868B4065FFD78C7863 /* Products */,
-				A179BA01D613F7E921C5B797FE98EEDE /* Targets Support Files */,
+				ABEC66E0726E727A264EA4E28044F250 /* Products */,
+				E75CAF7730CADD4F7AB599C294F768AA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E75CAF7730CADD4F7AB599C294F768AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08AFE14DBA391059A34201BC6D1DAA99 /* Pods-MTKVOManagerComponent_Example */,
+				B8F957B70D5A0CFF6711F9C563970B0E /* Pods-MTKVOManagerComponent_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F37D9E3DF4B7B276818A1977FF720682 /* Pods */ = {
@@ -321,6 +323,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B6E0C6C47FCF48F20498750B557907F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7C41883A9B89F6C0556A30E45E5090 /* Pods-MTKVOManagerComponent_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E8280AE2F8318F7CFD01D6D9EF74BE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,52 +342,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18BBA1915EF318A4669117D01141B0A8 /* Headers */ = {
+		439612E9614E5EB4C9265FBF422AB7AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552E3BE460F7B883EB76FC848EF5CA85 /* Pods-MTKVOManager_Tests-umbrella.h in Headers */,
+				E267C7EE5E8579DA2DE667A301F48C7F /* MTKVOManager.h in Headers */,
+				8E903925EC9090F00D261677C4ECB80A /* MTKVOManagerComponent-umbrella.h in Headers */,
+				4B46C1404CA07244F5C49B06174460BB /* MTKVOManagerComponentHeader.h in Headers */,
+				6C2B1DC44051BDD29BC258C5FC38AACE /* NSObject+MTKVOManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		798F5042F3F027A7106CE0C295B36286 /* Headers */ = {
+		5DFA5D6FC62634C397B81BAF308BE9E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0070F7ED0879A34E60310FC59E2E8A4F /* Pods-MTKVOManager_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		986965A335101598EA1C92C45CE5DCF8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF886D35F60C2C7A2D71710FA5D3EA73 /* MTKVOManager-umbrella.h in Headers */,
-				E8E2B50071527222AB452443EF45C715 /* MTKVOManager.h in Headers */,
-				43D6E990EF1F50D5C6CEFC3E1E7C8393 /* NSObject+MTKVOManager.h in Headers */,
+				2B98B0CD2799E7904BCA431E4BD6337B /* Pods-MTKVOManagerComponent_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		17EB9393111DB5D6E99261697446DBAE /* Pods-MTKVOManager_Tests */ = {
+		18C0BD96AF32C42E00AC000CA6AEA54C /* Pods-MTKVOManagerComponent_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4599833E7B3FB3601B989E43625901A0 /* Build configuration list for PBXNativeTarget "Pods-MTKVOManager_Tests" */;
+			buildConfigurationList = 32B3100D5922E9B1752AD81EE5FCE006 /* Build configuration list for PBXNativeTarget "Pods-MTKVOManagerComponent_Tests" */;
 			buildPhases = (
-				18BBA1915EF318A4669117D01141B0A8 /* Headers */,
-				1550C8F58FE4BD2CEA77078326999BC1 /* Sources */,
-				C7994299E78DCF38605912A0328BBAAC /* Frameworks */,
-				32D4B35666EC2D6644EB262D9A5EB151 /* Resources */,
+				0B6E0C6C47FCF48F20498750B557907F /* Headers */,
+				24603D10152449F9F9ECDF8AE5A81247 /* Sources */,
+				B78F5F5FE09ABA2C6A8541DCACA1AB56 /* Frameworks */,
+				658AA91FAAD78C9D5553036F1D08F4AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FBE7AFF164C7325F193C3F403BCC719 /* PBXTargetDependency */,
+				DF48DA7323702629C662675939107083 /* PBXTargetDependency */,
 			);
-			name = "Pods-MTKVOManager_Tests";
-			productName = "Pods-MTKVOManager_Tests";
-			productReference = C2FFCF80E71D2B52656726D32198C8E4 /* Pods_MTKVOManager_Tests.framework */;
+			name = "Pods-MTKVOManagerComponent_Tests";
+			productName = "Pods-MTKVOManagerComponent_Tests";
+			productReference = C5425D68743DD6A6BEB906F32AE637D5 /* Pods_MTKVOManagerComponent_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */ = {
@@ -398,43 +401,43 @@
 			productReference = 399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A9F0A421E6CCDEAB300DA8E7DF3E92FF /* Pods-MTKVOManager_Example */ = {
+		D031FCCBC5C272C1C96EDCD95375B94B /* Pods-MTKVOManagerComponent_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC6F8DF6D16E7E83644509D2CB46B29A /* Build configuration list for PBXNativeTarget "Pods-MTKVOManager_Example" */;
+			buildConfigurationList = 286E879C564D29FD7F3ED1E419ADCF2F /* Build configuration list for PBXNativeTarget "Pods-MTKVOManagerComponent_Example" */;
 			buildPhases = (
-				798F5042F3F027A7106CE0C295B36286 /* Headers */,
-				F44E6EB4A5E4BB04F607E53E6C3A896A /* Sources */,
-				B16249CA6934178FA2F9514721D61171 /* Frameworks */,
-				E09A185DD40AD092F3D3CF1932EFC7EF /* Resources */,
+				5DFA5D6FC62634C397B81BAF308BE9E2 /* Headers */,
+				674E15CE076F7D48B422D38F97441528 /* Sources */,
+				59A1EEB01CFAF9489026A3D0E5953AF2 /* Frameworks */,
+				DD57EEEF3017B83DDF0A444A32EB3BC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C7232C44BAC509FA48A2D129DB63B446 /* PBXTargetDependency */,
-				3B4ABBE4BD30DD0E31D9C7758B38F203 /* PBXTargetDependency */,
+				CE8D8CCF2C8DBD3D7C90356D7D7EF087 /* PBXTargetDependency */,
+				83530C1AA4B2BAD2CE6BE2ED638C38C3 /* PBXTargetDependency */,
 			);
-			name = "Pods-MTKVOManager_Example";
-			productName = "Pods-MTKVOManager_Example";
-			productReference = C79C29AFF8E91C4A2DE8825A7619ABDA /* Pods_MTKVOManager_Example.framework */;
+			name = "Pods-MTKVOManagerComponent_Example";
+			productName = "Pods-MTKVOManagerComponent_Example";
+			productReference = B0F734CCA06FC3687471412F7D17FDF9 /* Pods_MTKVOManagerComponent_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B7706343B82827C90EF8658D69730995 /* MTKVOManager */ = {
+		EE7375A2B6673648A3E4AE55FBAE86F4 /* MTKVOManagerComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33FA915F2C077A98A9342A292BF46EB2 /* Build configuration list for PBXNativeTarget "MTKVOManager" */;
+			buildConfigurationList = 612F426F1BABE3C495B05E0C7C014E1D /* Build configuration list for PBXNativeTarget "MTKVOManagerComponent" */;
 			buildPhases = (
-				986965A335101598EA1C92C45CE5DCF8 /* Headers */,
-				1F2D5F6E4F7BA9A06A964DCA65BA21DC /* Sources */,
-				E5FF754491230BC8E8450C49292CFA9F /* Frameworks */,
-				2A6AEB9D807A55E2963C35CB7E14DA4F /* Resources */,
+				439612E9614E5EB4C9265FBF422AB7AE /* Headers */,
+				55FD44FC76741FC872305F7EB983A553 /* Sources */,
+				30E6E5646C58411C6AED5DE35522543E /* Frameworks */,
+				D1EB369C27FD3E8C32F85186689F8439 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39BCFD6ED72570E6E5D3A75C14C8AFD1 /* PBXTargetDependency */,
+				5FACCB66722207BA57B75AA1CEB582AD /* PBXTargetDependency */,
 			);
-			name = MTKVOManager;
-			productName = MTKVOManager;
-			productReference = 7181E930F405C51D5FC039ABAF4D4F5B /* MTKVOManager.framework */;
+			name = MTKVOManagerComponent;
+			productName = MTKVOManagerComponent;
+			productReference = DFCECFDAFE8B932A6CDAB47F61C68B90 /* MTKVOManagerComponent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -455,27 +458,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1AF0009AD241E6868B4065FFD78C7863 /* Products */;
+			productRefGroup = ABEC66E0726E727A264EA4E28044F250 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */,
-				B7706343B82827C90EF8658D69730995 /* MTKVOManager */,
-				A9F0A421E6CCDEAB300DA8E7DF3E92FF /* Pods-MTKVOManager_Example */,
-				17EB9393111DB5D6E99261697446DBAE /* Pods-MTKVOManager_Tests */,
+				EE7375A2B6673648A3E4AE55FBAE86F4 /* MTKVOManagerComponent */,
+				D031FCCBC5C272C1C96EDCD95375B94B /* Pods-MTKVOManagerComponent_Example */,
+				18C0BD96AF32C42E00AC000CA6AEA54C /* Pods-MTKVOManagerComponent_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A6AEB9D807A55E2963C35CB7E14DA4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32D4B35666EC2D6644EB262D9A5EB151 /* Resources */ = {
+		658AA91FAAD78C9D5553036F1D08F4AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,7 +485,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E09A185DD40AD092F3D3CF1932EFC7EF /* Resources */ = {
+		D1EB369C27FD3E8C32F85186689F8439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD57EEEF3017B83DDF0A444A32EB3BC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,14 +502,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1550C8F58FE4BD2CEA77078326999BC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				288A4B8AEFB3BECB5EFF8DEB5BBB809A /* Pods-MTKVOManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1EB910ACA7B3AC52692D864DA7E60506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,90 +512,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F2D5F6E4F7BA9A06A964DCA65BA21DC /* Sources */ = {
+		24603D10152449F9F9ECDF8AE5A81247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A3935BB6389141167BD591BC6095D1 /* MTKVOManager-dummy.m in Sources */,
-				A8553439B56324FC45E74C21F2507427 /* MTKVOManager.m in Sources */,
-				47174E2695E890213CBEFD14598A281E /* NSObject+MTKVOManager.m in Sources */,
+				8B430C9095F9DDB229AECF516913F04A /* Pods-MTKVOManagerComponent_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F44E6EB4A5E4BB04F607E53E6C3A896A /* Sources */ = {
+		55FD44FC76741FC872305F7EB983A553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC95AB0813DE6FF4053B42B5BF8F4DA /* Pods-MTKVOManager_Example-dummy.m in Sources */,
+				423F6550BE0D172A2E9A20C5C6D40695 /* MTKVOManager.m in Sources */,
+				BDEEE295C640052D63CBDC9D9AC0B2C9 /* MTKVOManagerComponent-dummy.m in Sources */,
+				08492706BAE79C606C9AE4C971B0C1C4 /* NSObject+MTKVOManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674E15CE076F7D48B422D38F97441528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73188B20BB0D0959DC049CBCB8FE36A6 /* Pods-MTKVOManagerComponent_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FBE7AFF164C7325F193C3F403BCC719 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MTKVOManager_Example";
-			target = A9F0A421E6CCDEAB300DA8E7DF3E92FF /* Pods-MTKVOManager_Example */;
-			targetProxy = 7358CD57113C183D0CD319698B9FC58C /* PBXContainerItemProxy */;
-		};
-		39BCFD6ED72570E6E5D3A75C14C8AFD1 /* PBXTargetDependency */ = {
+		5FACCB66722207BA57B75AA1CEB582AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVOController;
 			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
-			targetProxy = 14C0E4B2ED8A5BA818910C333AB24BD1 /* PBXContainerItemProxy */;
+			targetProxy = 41C2C357F450AA14FE4AE373E5489396 /* PBXContainerItemProxy */;
 		};
-		3B4ABBE4BD30DD0E31D9C7758B38F203 /* PBXTargetDependency */ = {
+		83530C1AA4B2BAD2CE6BE2ED638C38C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MTKVOManager;
-			target = B7706343B82827C90EF8658D69730995 /* MTKVOManager */;
-			targetProxy = 780603683C8CE647F71977171B1F074A /* PBXContainerItemProxy */;
+			name = MTKVOManagerComponent;
+			target = EE7375A2B6673648A3E4AE55FBAE86F4 /* MTKVOManagerComponent */;
+			targetProxy = EBB4174159C9BD89817CDB1609885E2D /* PBXContainerItemProxy */;
 		};
-		C7232C44BAC509FA48A2D129DB63B446 /* PBXTargetDependency */ = {
+		CE8D8CCF2C8DBD3D7C90356D7D7EF087 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVOController;
 			target = 2568F753F09C4DFFD8770DCC78EDAEAE /* KVOController */;
-			targetProxy = 6598A97C75A2A50FAC5BB581C44F9532 /* PBXContainerItemProxy */;
+			targetProxy = 058854B6A7E3A2FDDFB863EE9EC4B70F /* PBXContainerItemProxy */;
+		};
+		DF48DA7323702629C662675939107083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MTKVOManagerComponent_Example";
+			target = D031FCCBC5C272C1C96EDCD95375B94B /* Pods-MTKVOManagerComponent_Example */;
+			targetProxy = A65D6CD8B3428893A3214A5ADE435B9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09B601CB75684C1767C0D63AB3998C79 /* Release */ = {
+		18185923660573F15A9AF5303ED1B725 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1437B6204D35C03C55DC455CF7D658C6 /* Pods-MTKVOManager_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManager_Example/Pods-MTKVOManager_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManager_Example/Pods-MTKVOManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		15C79A150E27CB1F1D6C600F98C483D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A239A0CCE15513D48A55FF10752BEA02 /* MTKVOManager.debug.xcconfig */;
+			baseConfigurationReference = BE754C172E53C0415D9063BE20DC188A /* MTKVOManagerComponent.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -610,14 +580,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MTKVOManager/MTKVOManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTKVOManager/MTKVOManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MTKVOManagerComponent/MTKVOManagerComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTKVOManagerComponent/MTKVOManagerComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTKVOManager/MTKVOManager.modulemap";
-				PRODUCT_MODULE_NAME = MTKVOManager;
-				PRODUCT_NAME = MTKVOManager;
+				MODULEMAP_FILE = "Target Support Files/MTKVOManagerComponent/MTKVOManagerComponent.modulemap";
+				PRODUCT_MODULE_NAME = MTKVOManagerComponent;
+				PRODUCT_NAME = MTKVOManagerComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -627,6 +597,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1D6D971FCC773D9A69D79795BC175862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54C7522D28A841946128DCC5D14C2EA /* MTKVOManagerComponent.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTKVOManagerComponent/MTKVOManagerComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTKVOManagerComponent/MTKVOManagerComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTKVOManagerComponent/MTKVOManagerComponent.modulemap";
+				PRODUCT_MODULE_NAME = MTKVOManagerComponent;
+				PRODUCT_NAME = MTKVOManagerComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		239630550E2B1FE851FE8B51FF451517 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -724,38 +725,6 @@
 			};
 			name = Debug;
 		};
-		3B40FA909C6B53DD9E9C42974EA31EBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F048A6CE1059E57F0EE2E1C65B544E31 /* Pods-MTKVOManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManager_Tests/Pods-MTKVOManager_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManager_Tests/Pods-MTKVOManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		49B055E650855B7C0143E13696BF3777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F048B46EE717344AEC2A74F49762B61 /* KVOController.release.xcconfig */;
@@ -787,9 +756,9 @@
 			};
 			name = Release;
 		};
-		8C0CFF18A4842D4518A65400E36AD481 /* Debug */ = {
+		555CAD811C196522FE6D036D2B3927DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12009708FBC2F54474A116812509F10C /* Pods-MTKVOManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 03BD48BA1227506E10611AE21F0F436C /* Pods-MTKVOManagerComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -800,12 +769,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManager_Example/Pods-MTKVOManager_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Example/Pods-MTKVOManagerComponent_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManager_Example/Pods-MTKVOManager_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Example/Pods-MTKVOManagerComponent_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AEB56FC3B610F579692BE2396B34081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C46AFBDF6FD7BF25F7D1922AE5A463F /* Pods-MTKVOManagerComponent_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Tests/Pods-MTKVOManagerComponent_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Tests/Pods-MTKVOManagerComponent_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -818,37 +820,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		BC60D3FC067FFC51CBB07573A1017FC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9483B27BF5BC874D52BA995F9C997762 /* MTKVOManager.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MTKVOManager/MTKVOManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTKVOManager/MTKVOManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTKVOManager/MTKVOManager.modulemap";
-				PRODUCT_MODULE_NAME = MTKVOManager;
-				PRODUCT_NAME = MTKVOManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -905,16 +876,15 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		F60DEAAD7D95C2AE815D9E06FBA775E7 /* Release */ = {
+		CF4DCA52284CD0F17E86B89E132C26B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC93B23BBCF3B2C449484D6FAC063170 /* Pods-MTKVOManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 012BBC9EE2B991A47CAC86F5B94BA8B2 /* Pods-MTKVOManagerComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,12 +895,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManager_Tests/Pods-MTKVOManager_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Example/Pods-MTKVOManagerComponent_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManager_Tests/Pods-MTKVOManager_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Example/Pods-MTKVOManagerComponent_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF736E4A83097FEF3308F4D7FF697925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65225954754213EA05505A6543F621A5 /* Pods-MTKVOManagerComponent_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Tests/Pods-MTKVOManagerComponent_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTKVOManagerComponent_Tests/Pods-MTKVOManagerComponent_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -948,20 +950,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33FA915F2C077A98A9342A292BF46EB2 /* Build configuration list for PBXNativeTarget "MTKVOManager" */ = {
+		286E879C564D29FD7F3ED1E419ADCF2F /* Build configuration list for PBXNativeTarget "Pods-MTKVOManagerComponent_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15C79A150E27CB1F1D6C600F98C483D2 /* Debug */,
-				BC60D3FC067FFC51CBB07573A1017FC7 /* Release */,
+				CF4DCA52284CD0F17E86B89E132C26B7 /* Debug */,
+				555CAD811C196522FE6D036D2B3927DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4599833E7B3FB3601B989E43625901A0 /* Build configuration list for PBXNativeTarget "Pods-MTKVOManager_Tests" */ = {
+		32B3100D5922E9B1752AD81EE5FCE006 /* Build configuration list for PBXNativeTarget "Pods-MTKVOManagerComponent_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B40FA909C6B53DD9E9C42974EA31EBB /* Debug */,
-				F60DEAAD7D95C2AE815D9E06FBA775E7 /* Release */,
+				7AEB56FC3B610F579692BE2396B34081 /* Debug */,
+				FF736E4A83097FEF3308F4D7FF697925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -984,11 +986,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC6F8DF6D16E7E83644509D2CB46B29A /* Build configuration list for PBXNativeTarget "Pods-MTKVOManager_Example" */ = {
+		612F426F1BABE3C495B05E0C7C014E1D /* Build configuration list for PBXNativeTarget "MTKVOManagerComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C0CFF18A4842D4518A65400E36AD481 /* Debug */,
-				09B601CB75684C1767C0D63AB3998C79 /* Release */,
+				18185923660573F15A9AF5303ED1B725 /* Debug */,
+				1D6D971FCC773D9A69D79795BC175862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
