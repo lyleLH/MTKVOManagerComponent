@@ -22,7 +22,7 @@ pod 'MTKVOManager'
 
 ## Author
 
-Tom.Liu, tomliu@yeahka.com
+Tom.Liu, 
 
 ## License
 
